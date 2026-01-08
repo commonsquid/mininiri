@@ -12,6 +12,7 @@ binds {
   Mod+D { spawn-sh "niri msg action toggle-overview"; }
   Mod+Tab repeat=false { toggle-overview; }
   Mod+Shift+Slash { show-hotkey-overlay; }
+  Mod+O { spawn-sh "qs -c noctalia-shell ipc call bar toggle"; }
 
   // Application Launchers 
   Mod+Return hotkey-overlay-title="Open Terminal" { spawn "ghostty"; }

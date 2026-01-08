@@ -104,7 +104,7 @@ window-rule {
   match app-id="^net.davidotek.pupgui2$"
   match app-id="^MEGAsync$"
   match title="^MEGAsync$"
-  match app-id="com.mitchellh.ghostty$"
+// match app-id="com.mitchellh.ghostty$"
   open-floating true
 }
 window-rule {

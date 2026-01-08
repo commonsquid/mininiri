@@ -15,7 +15,8 @@ spawn-sh-at-startup "qs -c noctalia-shell"
 output "eDP-1" {
   mode "2560x1600@359.979"
   scale 1.8
-  transform "normal"
+ // transform "normal"
+  variable-refresh-rate
 }
 
 input {
